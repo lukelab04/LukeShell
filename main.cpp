@@ -135,7 +135,7 @@ void executeBuiltIns(string builtin, string input = ""){
         file.close();
 
         //Path to the shell executable 
-        string shellpath = "./LukeScript/bin/Debug/net5.0/shell";
+        string shellpath = "./LukeScript/bin/Debug/net5.0/LukeScript";
 
         //Use the shlLaunch function to start lukescript
         char* tempArgs[] = {&shellpath[0], NULL};
