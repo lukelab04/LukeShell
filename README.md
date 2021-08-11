@@ -13,7 +13,7 @@ Run ```dotnet build``` to build the project. You may need to install some depend
 
 Run ```cd ../``` to exit back into the project root directory.
 
-Run ```make run``` to compile main.cpp.
+Run ```make``` to compile main.cpp.
 
 Run ```./main``` to run the program.
 
