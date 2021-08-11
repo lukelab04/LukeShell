@@ -5,9 +5,13 @@ A custom Linux shell with built-in support for LukeScript
 
 Download this repository. You will need the .NET and C# tools for Linux (Instructions can be found [here](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2104-)).
 
+Run ```cd lukescript``` from the project root. **Make sure*** you are in the LukeScript directory.
+
 Run ```dotnet new console``` to create a C# project. You can delete the Project.cs file that it creates.
 
 Run ```dotnet build``` to build the project. You may need to install some dependancies with Nuget.
+
+Run ```cd ../``` to exit back into the project root directory.
 
 Run ```make run``` to compile main.cpp.
 
